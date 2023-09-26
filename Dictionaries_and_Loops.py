@@ -7,12 +7,16 @@ profiles = [
         'Age': 27
     },
     {
+        'Name': 'Haylie',
+        'Age': 27
+    },
+    {
         'Name': 'Tater',
-        'Age': 22
+        'Age': 10
     },
     {
         'Name': 'Tootie',
-        'Age': 18
+        'Age': 1
     },
 ]
 # A function that prompts user input, converts the input to lowercase after stripping leading/trailing whitespace, and stores inside 'user_input' variable. #
