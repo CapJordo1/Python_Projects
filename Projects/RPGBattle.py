@@ -41,7 +41,7 @@ while True:
             print(f'{i}: {move_name} - Damage: {available_moves[move_name]}')
         try:
             # Takes player input for choices
-            player_choice = int(input("\n\033[93mSelect a move by typing the corresponding number...\033[0m\n"))
+            player_choice = int(input("\n\033[93mSelect a move by typing the corresponding number...\033[0m\n(1,2,3,4) >"))
             if player_choice in range(1, 5) or str(player_choice) == 'Riposte':
                 # Check if user's input is valid (from available_moves)
                 selected_move_name = list(available_moves.keys())[player_choice - 1]
